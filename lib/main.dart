@@ -20,7 +20,9 @@ class _ExemploInicial extends State {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Center(child: _pages.elementAt(_currentPage)),
+        body: Center(
+          child: _pages.elementAt(_currentPage),
+        ),
         bottomNavigationBar: BottomNavigationBar(
             items: const [
               BottomNavigationBarItem(
